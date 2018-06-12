@@ -1,0 +1,520 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body{
+    background-color:#3341ac ;
+}
+/*navbar*/
+.navbar { !important; border-color: transparent; border-radius: 0%; background: none;font-family: Khula;
+ }
+/** Default navbar **/
+.navbar-default .navbar-nav>li>a { padding-top: 25px; padding-bottom: 25px; min-height: 68px; color: white; font-size: 28px;}
+.navbar-default .navbar-nav > li > a:hover {color: white;}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: black;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #060606 !important;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    color: white !important;
+
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: black !important;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: white !important;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    border-color: transparent;
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+.navbar-form { padding-top: 10px !important;}
+.navbar-text { margin-top: 25px; position: relative; left: 0; }
+.navbar-default .navbar-text { color: white;}
+.navbar-default .navbar-brand {
+    font-size: 28px;
+    color: white;
+    margin-top: 10px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: black;
+}
+.navbar li a:hover{
+    color: black;
+    background-color: black;
+}
+
+#background {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -999; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:80%;
+}
+/*eind navbar*/
+
+/*button in footer*/
+.btn{
+    width: 300px;
+    height: 80px;
+    font-family:Khula;
+    font-size:32px;
+    text-align:center;
+    display:block;
+    position:absolute;
+    color:white;
+    left: 0;
+    right: 0;
+    margin:auto;
+    background-color:   #3341ac;
+    border: none;
+}
+.btn-lg{
+    margin-top: 12%;
+}
+h2{
+    font-size: 55px;
+}
+
+/*Begin van hexacons op de index pagina*/
+.social_all{
+    margin-top: -10%;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+
+
+
+}
+.social .label{
+    color: white;
+}
+.social {
+    position: relative;
+    height: 3em;
+    width: 13.5em;
+    font-size: 30px;
+    margin-top: 100%;
+}
+
+.social li {
+    display: block;
+    height: 4em;
+    line-height: 4em;
+    margin: -2.2em;
+    position: absolute;
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    width: 4em;
+
+}
+
+.social a {
+    color: #fffdf0;
+    display: block;
+    height: 4em;
+    line-height: 6em;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 4em;
+
+}
+
+.social li:hover {
+    -webkit-transform: scale(1.3,1.3) rotate(45deg);
+    -moz-transform: scale(1.3,1.3) rotate(45deg);
+    -ms-transform: scale(1.3,1.3) rotate(45deg);
+    -o-transform: scale(1.3,1.3) rotate(45deg);
+    transform: scale(1.3,1.3) rotate(45deg);
+}
+
+.facebook {
+    background: #3341ac;
+    left: 0;
+    top: 0%;
+}
+
+.twitter {
+    background: #3341ac;
+    bottom: 0;
+    left: 25%;
+}
+.facebook2 {
+    background: #3341ac;
+    left: 50%;
+    top: 0%;
+}
+
+.twitter2 {
+    background: #3341ac;
+    bottom: 0;
+    left: 25%;
+}
+
+.pinterest {
+    background: #3341ac;
+    left: 50%;
+    top: 0%;
+}
+.behance {
+    background: #3341ac;
+    bottom: 0;
+    left: 75%;
+}
+.behance2 {
+    background: #3f7aa3;
+    top: 0%;
+    left: 100%;
+}
+.behance3 {
+    background: #3f7aa3;
+    bottom: 0;
+    left: 75%;
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 80px;
+    margin-left: 30%;
+    color: white;
+
+}
+
+/*Begin update blokken op de index pagina*/
+.index-content a:hover{
+    color:black;
+    text-decoration:none;
+}
+.index-content{
+    margin-top: -40%;
+    margin-bottom:20px;
+    padding:50px 0px;
+
+}
+.index-content .row{
+    margin-top:20px;
+}
+.index-content a{
+    color: black;
+}
+.index-content .card{
+    background-color: #FFFFFF;
+    padding:0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius:4px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+
+}
+.index-content .card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
+}
+.index-content .card img{
+    width:100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.index-content .card h4{
+    margin:20px;
+}
+.index-content .card p{
+    margin:20px;
+    opacity: 0.65;
+}
+.index-content .blue-button{
+    width: 100px;
+    -webkit-transition: background-color 1s , color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s , color 1s;
+    min-height: 20px;
+    background-color: #002E5B;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px 20px 15px 20px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.index-content .blue-button:hover{
+    background-color: #dadada;
+    color: #002E5B;
+}
+@media (max-width: 768px) {
+
+    .index-content .col-lg-4 {
+        margin-top: 20px;
+    }
+}
+
+/*achtergrond content banden*/
+.band1{
+
+    margin-top: 67%;
+    background-color: #2937a0;
+    height: 550px;
+    width: 100%;
+    z-index: -10;
+}
+.band2{
+
+
+    background-color:  #3341ac;
+    height: 330px;
+    width: 100%;
+    z-index: -10;
+}
+.band3{
+
+    background-color: #2937a0;
+    height: 300px;
+    z-index: -10;
+}
+.band3 h1{
+    font-size: 32px;
+    font-family: Khula;
+    max-width: 600px;
+    font-family:Khula;
+    text-align:center;
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    font-weight: 500;
+}
+.band3 p{
+    font-size: 28px;
+    font-family: Khula;
+    max-width: 600px;
+    text-align:center;
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+/*plaatsing en kleuring en groote van content op verschillende pagina's */
+
+
+.load ,.load2, .load3 ,.load4, .load5{
+    opacity: 0;
+}
+.about1, .about3{
+    background-color:  #3341ac;
+}
+.about2{
+    background-color: #2937a0;
+    height: 550px;
+}
+.about_img{
+    background-image: url("../afbeeldingen/develop.jpg");
+    width: 40%;
+    height: 500px;
+    position: relative;
+    margin-top: -50px;
+    border-right: #2937a0 solid 4px;
+    background-size:  100% 500px, cover;
+}
+.about_img2{
+    background-image: url("../afbeeldingen/grey_back.jpg");
+    width: 40%;
+    height: 550px;
+    position: relative;
+    margin-top: -50px;
+    border-left:  #3341ac solid 4px;
+    background-size:  100% 550px, cover;
+    margin-left: 60%;
+
+}
+
+.about_text{
+    max-width: 500px;
+    margin-left: 50%;
+    margin-top: -30%;
+    font-family: Khula;
+    color: white;
+}
+.about_text2{
+    max-width: 500px;
+    margin-left: 10%;
+    margin-top: -30%;
+    font-family: Khula;
+    color: white;
+}
+.work_img{
+    background-image: url("../afbeeldingen/beoordeel.PNG");
+    width: 20%;
+    height: 250px;
+    position: relative;
+    margin-top: -50px;
+    border-right:  #3341ac solid 4px;
+    background-size:  100% 250px, cover;
+}
+.work_img2 {
+    background-image: url("../afbeeldingen/rotterdam.PNG");
+    height: 300px;
+    position: relative;
+    margin-top: -50px;
+    border-left: #2937a0 solid 4px;
+    background-size: 100% 300px, cover;
+    margin-left: 80%;
+}
+
+.work_text{
+    max-width: 500px;
+    margin-left: 50%;
+    margin-top: -17%;
+    font-family: Khula;
+    color: white;
+}
+.work_text2{
+    max-width: 500px;
+    margin-left: 10%;
+    margin-top: -20%;
+    font-family: Khula;
+    color: white;
+}
+.work1, .work2{
+    height: 300px;
+}
+.work3{
+    background-color: #2937a0
+}
+.footer{
+    color: white;
+}
+/*mediaquaries voor groot scherm*/
+@media (min-width: 1921px) {
+    .band1{
+        margin-top: 62%;
+    }
+    .social_all{
+        margin-top: -5%;
+    }
+    .btn-lg{
+        margin-top: 6%;
+    }
+    .band3 h1{
+        margin-top: 1%;
+    }
+    .band3 p{
+        margin-top: 3%;
+    }
+    .about_text{
+        margin-top: -12%;
+    }
+    .about_text2{
+        margin-top: -12%;
+    }
+    .work_text, .work_text2{
+        margin-top: -6%;
+    }
+}
+/*mediaquaries voor kleine schermen*/
+@media (max-width: 890px) {
+    #text{
+      display: none;
+    }
+    .seatext{
+display: none;
+    }
+    .footer{
+        margin-top: 100%;
+    }
+    .social_all{
+        display: none;
+    }
+    .footer button {
+        margin-top: 60%;
+    }
+    .footer p{
+        margin-top: 72px;
+        color: white;
+    }
+    .about_img, .about_img2{
+        display: none;
+    }
+    .about_text{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .about3{
+        margin-top: -25%;
+    }
+    .work_img, .work_img2{
+        width: 50%;
+    }
+    .work_img2{
+        margin-left: 50%;
+    }
+    .work_text{
+        margin-left: 47%; !important;
+        margin-top: -50%; !important;
+        max-width: 50%; !important;
+    }
+    .work_text2{
+        max-width: 40%; !important;
+        margin-left: 5%; !important;
+        margin-top: -55%; !important;
+    }
+    .work3{
+        margin-top: 0;
+    }
+    .contact-section{
+    width: 100%;
+    }
+}
+@media (max-width: 970px) {
+    .seatext{
+        display: none;
+    }
+}
+
